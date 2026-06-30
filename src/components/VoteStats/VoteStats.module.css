@@ -1,0 +1,23 @@
+.container {
+    width: 420px;
+    padding: 30px;
+    border-radius: 16px;
+    background-color: #f8f8f8;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.stat {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 18px;
+    font-size: 28px;
+    color: #333;
+}
+
+.stat:last-child {
+    margin-bottom: 0;
+}
+
+.stat strong {
+    color: #1f6cc4;
+}

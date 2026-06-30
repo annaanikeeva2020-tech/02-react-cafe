@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 30px;
+}
+
+.button {
+    padding: 16px 40px;
+    border: none;
+    border-radius: 12px;
+    background-color: #1f6cc4;
+    color: white;
+    font-size: 28px;
+    cursor: pointer;
+    transition: background-color 250ms ease;
+}
+
+.button:hover {
+    background-color: #1757a3;
+}
+
+.reset {
+    background-color: #dc3545;
+}
+
+.reset:hover {
+    background-color: #b52a37;
+}
